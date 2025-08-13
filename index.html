@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hot Topics</title>
+
+  <!-- Google Fonts: Serif (headings) + Sans-serif (body) -->
+  <link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Quattrocento:wght@400;700&display=swap" rel="stylesheet">
+    
+  <!-- Font Awesome Icons -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <a class="logo" href="#" aria-label="Hot Topics Home">Hot Topics</a>
+    </div>
+
+    <nav class="site-nav" aria-label="Primary">
+      <ul>
+        <li><a class="nav-link is-active" href="./partials/home.html">Home</a></li>
+        <li><a class="nav-link" href="./partials/portfolio.html">Portfolio</a></li>
+      </ul>
+    </nav>
+
+    <div class="masthead" id="masthead" role="img" aria-label="Hero image">
+      <div class="masthead-inner">
+        <h1 class="tagline">Think. Question. Create.</h1>
+        <p class="subtag">Perspectives on money, food, and the future.</p>
+      </div>
+    </div>
+  </header>
+
+  <main id="app" tabindex="-1" class="container">
+    <!-- Ajax-loaded partials get injected here -->
+    <noscript>Please enable JavaScript to load content.</noscript>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>
+        <h3>Follow</h3>
+        <ul class="social">
+          <li><a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i> Twitter</a></li>
+          <li><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i> Instagram</a></li>
+          <li><a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+          <li><a href="#" aria-label="GitHub"><i class="fab fa-github"></i> GitHub</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Company</h3>
+        <address>
+          Hot Topics Inc.<br/>
+          123 Sparks St, Ottawa, ON<br/>
+          +1 (613) 555-0199
+        </address>
+      </div>
+    </div>
+    <p class="legal">© <span id="year"></span> Hot Topics Inc. All rights reserved.</p>
+  </footer>
+
+  <script src="./js/main.js" defer></script>
+</body>
+</html>
