@@ -11,12 +11,12 @@ const setActive = (href) => {
 };
 
 const setHeroFor = (partial) => {
-  // Use page-specific heroes (make sure these files exist in /img/)
+  
   if (partial === "home.html") {
-    masthead.style.backgroundImage = 'linear-gradient(to bottom, rgba(2,6,23,.25), rgba(2,6,23,.45)), url("../img/money-hero.jpg")';
+    masthead.style.backgroundImage = 'linear-gradient(to bottom, rgba(2,6,23,.25), rgba(2,6,23,.45)), url("./img/money-hero.jpg")';
     masthead.setAttribute("aria-label", "Hero image for Home");
   } else if (partial === "portfolio.html") {
-    masthead.style.backgroundImage = 'linear-gradient(to bottom, rgba(2,6,23,.25), rgba(2,6,23,.45)), url("../img/portfolio-hero.jpg")';
+    masthead.style.backgroundImage = 'linear-gradient(to bottom, rgba(2,6,23,.25), rgba(2,6,23,.45)), url("./img/portfolio-hero.jpg")';
     masthead.setAttribute("aria-label", "Hero image for Portfolio");
   }
 };
